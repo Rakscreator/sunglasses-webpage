@@ -1,0 +1,25 @@
+body
+{
+    background: rgb(255,251,168);
+    background: linear-gradient(180deg, rgba(255,251,168,1) 10%, rgba(161,122,255,1) 50%, rgba(77,81,255,1) 84%, rgba(0,44,255,1) 100%);
+}
+    h3
+{
+    font-size: 30px !important;
+}
+.btn-info:hover
+{
+    background-color: gold;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 04s;
+    animation-iteration-count: infinite;
+    border: 3px dashed;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 45px white;}
+    to{box-shadow: 1px 1px 45px purple;}
+}
